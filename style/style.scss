@@ -7,17 +7,30 @@ h2{
   font-family: 'Courier New', Courier, monospace;
   font-weight: 300;
 }
+body {
+  background-color: #FAEDDD;
+}
 header {
   display: flex;
   width: 100vw;
   margin-bottom: 5rem;
   justify-content: space-around;
   align-items: center;
+  .logopic { 
+    width: 400px;
+  }
+  .nav a {
+    padding-right: 2rem;
+  }
 }
 button {
   width: 200px;
   height: 70px;
-  background-color: bisque;
+  background-color: #400E19;
+  border: none;
+  border-radius: 5cap;
+  font-size: 18px;
+  color:bisque;
 }
 main {
   margin-bottom: 5rem;
