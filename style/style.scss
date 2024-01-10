@@ -7,3 +7,22 @@ h2{
   font-family: 'Courier New', Courier, monospace;
   font-weight: 300;
 }
+header {
+  display: flex;
+  width: 100vw;
+  margin-bottom: 5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  width: 200px;
+  height: 70px;
+  background-color: bisque;
+}
+main {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
