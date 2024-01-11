@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-h2{
-  font-family: 'Courier New', Courier, monospace;
+h2 {
+  font-family: "Courier New", Courier, monospace;
   font-weight: 300;
 }
 body {
-  background-color: #FAEDDD;
+  background-color: #faeddd;
 }
 header {
   display: flex;
@@ -16,21 +16,22 @@ header {
   margin-bottom: 5rem;
   justify-content: space-around;
   align-items: center;
-  .logopic { 
+  .logopic {
     width: 400px;
   }
   .nav a {
     padding-right: 2rem;
+    text-decoration: none;
   }
 }
 button {
   width: 200px;
   height: 70px;
-  background-color: #400E19;
+  background-color: #400e19;
   border: none;
   border-radius: 5cap;
   font-size: 18px;
-  color:bisque;
+  color: bisque;
 }
 main {
   margin-bottom: 5rem;
