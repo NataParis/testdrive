@@ -14,8 +14,12 @@ h2 {
 }
 
 body {
+<<<<<<< HEAD
+  background-color: #faeddd;
+=======
   background-color: #FAEDDD;
   font-family: "Gilroy", sans-serif;
+>>>>>>> master
 }
 
 header {
@@ -30,12 +34,17 @@ header .logopic {
 }
 header .nav a {
   padding-right: 2rem;
+  text-decoration: none;
 }
 
 button {
   width: 200px;
   height: 70px;
+<<<<<<< HEAD
+  background-color: #400e19;
+=======
   background-color: #d4163f;
+>>>>>>> master
   border: none;
   border-radius: 5cap;
   font-size: 18px;
