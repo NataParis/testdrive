@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('assets/fonts/Gilroy-Regular.ttf') format('truetype');
+
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +15,7 @@ h2{
 }
 body {
   background-color: #FAEDDD;
- 
+  font-family: 'Gilroy', sans-serif;
 }
 header {
   display: flex;
