@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('assets/fonts/Gilroy-Regular.ttf') format('truetype');
+
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +14,12 @@ h2 {
   font-weight: 300;
 }
 body {
+<<<<<<< HEAD
   background-color: #faeddd;
+=======
+  background-color: #FAEDDD;
+  font-family: 'Gilroy', sans-serif;
+>>>>>>> master
 }
 header {
   display: flex;
@@ -27,7 +38,11 @@ header {
 button {
   width: 200px;
   height: 70px;
+<<<<<<< HEAD
   background-color: #400e19;
+=======
+  background-color: #d4163f;
+>>>>>>> master
   border: none;
   border-radius: 5cap;
   font-size: 18px;
